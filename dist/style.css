@@ -121,3 +121,22 @@ a {
   filter: none !important;
   progid: none !important;
 }
+
+
+.tab-content>.tab-pane {
+  display: none;
+}
+
+
+.tab-content>.active {
+  display: block;
+}
+
+
+/* .tab-content {
+  margin-bottom: 50px;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 1;
+} */
