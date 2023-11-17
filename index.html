@@ -2,9 +2,11 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Carousel Gallery with Thumbnails and Touch Control inside Modal Popup using Bootstrap and jQuery</title>
+  <title>Portfolio</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
 
+
+  <!-- CodePen - Carousel Gallery with Thumbnails and Touch Control inside Modal Popup using Bootstrap and jQuery -->
 <!--carousel-gallery-with-thumbnails-and-touch-control-inside-modal-popup-using-bootstrap-and-jquery-->
 
 </head>
@@ -51,6 +53,114 @@
     <div class="row">
 
 
+      <!-- REPORTS -->
+      <div class="col-md-4">
+        <div class="panel panel-default fixed-width center-block" data-toggle="modal" data-target="#projectD">
+          <div class="panel-body">
+            <a href="#">
+              <img class="img-responsive center-block" src="images/diss_bigger.png" />
+            </a>
+          </div>
+          <div class="panel-footer">
+            <a href="#"><h3>Reports</h3></a>
+            <a href="#">
+            </a>
+          </div>
+        </div>
+        <div class="modal fade" id="projectD">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+              </div>
+              <div class="modal-body">
+                <div id="projectDsel" class="carousel slide project-slide" data-interval="false">
+                  <div class="carousel-inner">
+                    <div class="item active"> <img src="images/diss_bigger.png" alt="my img 1"><p>1</p>
+                    </div>
+                    <div class="item"><img src="images/proj_1.png" alt="item2"><p>2</p>
+                    </div>
+                    <div class="item"> <img src="images/proj_2.png" alt="item3"><p>3</p>
+                    </div>
+                    <div class="item"> <img src="images/proj_3.png" alt="item3"><p>3</p>
+                    </div>
+ 
+                     </div>
+                  <a class="left carousel-control" href="#projectDsel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a>
+                  <a class="right carousel-control" href="#projectDsel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+                <div id="carouselHeader">
+                  <h3>Reports</h3></div>
+                <div id="info">
+                  <p> </p>
+                  <br>
+                  <p>Undergraduate dissertation: Building a Digital Mental Health App to help manage OCD via Tracking and Prediction. Some maths reports from university.</p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button class="btn-sm close" type="button" data-dismiss="modal">Back</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- POEMS -->
+      <div class="col-md-4">
+        <div class="panel panel-default fixed-width center-block" data-toggle="modal" data-target="#projectB">
+          <div class="panel-body">
+            <a href="#">
+              <img class="img-responsive center-block" src="images/madness.png" />
+            </a>
+          </div>
+          <div class="panel-footer">
+            <a href="#"><h3>Poems</h3></a>
+            <a href="#">
+            </a>
+          </div>
+        </div>
+        <div class="modal fade" id="projectB">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+              </div>
+              <div class="modal-body">
+                <div id="projectBsel" class="carousel slide project-slide" data-interval="false">
+                  <div class="carousel-inner">
+                    <div class="item active"> <img src="images/madness.png" alt="my img 1"><p>1</p>
+                    </div>
+                    <div class="item"><img src="images/Ilk.png" alt="item2"><p>2</p>
+                    </div>
+                    <div class="item"> <img src="images/pledge.png" alt="item3"><p>3</p>
+                    </div>
+                    <div class="item"> <img src="images/sticky.png" alt="item3"><p>3</p>
+                    </div>
+                    <div class="item"> <img src="images/50k.png" alt="item3"><p>3</p>
+                    </div>
+ 
+                  </div>
+                  <a class="left carousel-control" href="#projectBsel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a>
+                  <a class="right carousel-control" href="#projectBsel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+                <div id="carouselHeader">
+                  <h3>Poems</h3></div>
+                <div id="info">
+                  <p> </p>
+                  <br>
+                  <p>'Madness Palace' for the Portico Library's 'Rewriting Manchester' collection, '50k' written at Young Identity. 'Ilk' written for Manchester Poetry Library</p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button class="btn-sm close" type="button" data-dismiss="modal">Back</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- BLOGS -->
       <div class="col-md-4">
         <div class="panel panel-default fixed-width center-block" data-toggle="modal" data-target="#projectA">
@@ -62,7 +172,7 @@
           <div class="panel-footer">
             <a href="#"><h3>Blogs</h3></a>
             <a href="#">
-              <p>...</p>
+              
             </a>
           </div>
         </div>
@@ -107,51 +217,50 @@
       </div>
 
 
-      <!-- POEMS -->
+    </div>
+    <div class = "row">
+
+
+      
+      <!-- OTHER -->
       <div class="col-md-4">
-        <div class="panel panel-default fixed-width center-block" data-toggle="modal" data-target="#projectB">
+        <div class="panel panel-default fixed-width center-block" data-toggle="modal" data-target="#projectE">
           <div class="panel-body">
             <a href="#">
-              <img class="img-responsive center-block" src="images/madness.png" />
+              <img class="img-responsive center-block" src="images/french_writing.png" />
             </a>
           </div>
           <div class="panel-footer">
-            <a href="#"><h3>Poems</h3></a>
+            <a href="#"><h3>Other</h3></a>
             <a href="#">
-              <p>...</p>
+              
             </a>
           </div>
         </div>
-        <div class="modal fade" id="projectB">
+        <div class="modal fade" id="projectE">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
               </div>
               <div class="modal-body">
-                <div id="projectBsel" class="carousel slide project-slide" data-interval="false">
+                <div id="projectEsel" class="carousel slide project-slide" data-interval="false">
                   <div class="carousel-inner">
-                    <div class="item active"> <img src="images/madness.png" alt="my img 1"><p>1</p>
+                    <div class="item active"> <img src="images/french_writing.png" alt="my img 1"><p>1</p>
                     </div>
-                    <div class="item"><img src="images/Ilk.png" alt="item2"><p>2</p>
-                    </div>
-                    <div class="item"> <img src="images/pledge.png" alt="item3"><p>3</p>
-                    </div>
-                    <div class="item"> <img src="images/sticky.png" alt="item3"><p>3</p>
-                    </div>
-                    <div class="item"> <img src="images/50k.png" alt="item3"><p>3</p>
+                    <div class="item"><img src="images/story.png" alt="item2"><p>2</p>
                     </div>
  
                   </div>
-                  <a class="left carousel-control" href="#projectBsel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a>
-                  <a class="right carousel-control" href="#projectBsel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+                  <a class="left carousel-control" href="#projectEsel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a>
+                  <a class="right carousel-control" href="#projectEsel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
                 </div>
                 <div id="carouselHeader">
-                  <h3>Poems</h3></div>
+                  <h3>Other</h3></div>
                 <div id="info">
                   <p> </p>
                   <br>
-                  <p>'Madness Palace' for the Portico Library's 'Rewriting Manchester' collection, '50k' written at Young Identity. 'Ilk' written for Manchester Poetry Library</p>
+                  <p>A piece of French writing on a Manchester restaurant. I did an addtional French module in my first year and got 68%. A play submitted for Playbox: Box of Tricks.</p>
                 </div>
               </div>
               <div class="modal-footer">
@@ -174,7 +283,7 @@
           <div class="panel-footer">
             <a href="#"><h3>Articles</h3></a>
             <a href="#">
-              <p>...</p>
+              
             </a>
           </div>
         </div>
@@ -212,109 +321,6 @@
         </div>
       </div>
 
-
-      <!-- REPORTS -->
-      <div class="col-md-4">
-        <div class="panel panel-default fixed-width center-block" data-toggle="modal" data-target="#projectD">
-          <div class="panel-body">
-            <a href="#">
-              <img class="img-responsive center-block" src="images/diss_bigger.png" />
-            </a>
-          </div>
-          <div class="panel-footer">
-            <a href="#"><h3>Reports</h3></a>
-            <a href="#">
-              <p>...</p>
-            </a>
-          </div>
-        </div>
-        <div class="modal fade" id="projectD">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
-              </div>
-              <div class="modal-body">
-                <div id="projectDsel" class="carousel slide project-slide" data-interval="false">
-                  <div class="carousel-inner">
-                    <div class="item active"> <img src="images/diss_bigger.png" alt="my img 1"><p>1</p>
-                    </div>
-                    <div class="item"><img src="images/proj_1.png" alt="item2"><p>2</p>
-                    </div>
-                    <div class="item"> <img src="images/proj_2.png" alt="item3"><p>3</p>
-                    </div>
-                    <div class="item"> <img src="images/proj_3.png" alt="item3"><p>3</p>
-                    </div>
- 
-                     </div>
-                  <a class="left carousel-control" href="#projectDsel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a>
-                  <a class="right carousel-control" href="#projectDsel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
-                </div>
-                <div id="carouselHeader">
-                  <h3>Reports</h3></div>
-                <div id="info">
-                  <p> </p>
-                  <br>
-                  <p>Undergraduate dissertation: Building a Digital Mental Health App to help manage OCD via Tracking and Prediction. Some maths reports from university.</p>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button class="btn-sm close" type="button" data-dismiss="modal">Back</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- OTHER -->
-      <div class="col-md-4">
-        <div class="panel panel-default fixed-width center-block" data-toggle="modal" data-target="#projectE">
-          <div class="panel-body">
-            <a href="#">
-              <img class="img-responsive center-block" src="images/french_writing.png" />
-            </a>
-          </div>
-          <div class="panel-footer">
-            <a href="#"><h3>Other</h3></a>
-            <a href="#">
-              <p>...</p>
-            </a>
-          </div>
-        </div>
-        <div class="modal fade" id="projectE">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
-              </div>
-              <div class="modal-body">
-                <div id="projectEsel" class="carousel slide project-slide" data-interval="false">
-                  <div class="carousel-inner">
-                    <div class="item active"> <img src="images/french_writing.png" alt="my img 1"><p>1</p>
-                    </div>
-                    <div class="item"><img src="images/story.png" alt="item2"><p>2</p>
-                    </div>
- 
-                  </div>
-                  <a class="left carousel-control" href="#projectEsel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a>
-                  <a class="right carousel-control" href="#projectEsel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
-                </div>
-                <div id="carouselHeader">
-                  <h3>Other</h3></div>
-                <div id="info">
-                  <p> </p>
-                  <br>
-                  <p>A piece of French writing on a Manchester restaurant. I did an addtional French module in my first year and got 68%. A play submitted for Playbox: Box of Tricks.</p>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button class="btn-sm close" type="button" data-dismiss="modal">Back</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
 
       </div>
